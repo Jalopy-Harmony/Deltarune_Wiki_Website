@@ -1,0 +1,77 @@
+<!--
+###########################################################################
+####################All code written by Jalopy Harmony.####################
+#####All Resources and Music are property of "Deltarune" by Toby Fox.######
+###########################################################################
+
+
+
+########################################################
+If you are just here to look at what is in here and learn or get inspired, then sure,
+look around. Just, do not mindlessly copy and paste. The worry is not that I am practically
+being stolen from... the worry is the fact that you are leaving yourself
+uneducated. Use it to learn not just to build. When the building collapses, without understanding
+it's architecture... you will just end up unable to ever fix it again.
+
+
+Here, the curious are commendable and shall be rewarded for their constant strive to make
+the unknown become the known; their constant strive for more knowledge.
+Look around these files, you will keep finding comments going over how features work with
+sufficient details to quench your curiosity.
+
+Just remember... learn. Do not copy. There is a difference between the two.
+Curiosity killed the cat, but satisfaction brought it back.
+Unfortunately, there is no satisfaction when you do not bother to understand.
+So learn.
+Okay, go on now. Go learn, and become even greater than before.
+Chao.
+########################################################
+-->
+<!DOCTYPE HTML5>
+<html>
+	<title>Deltarune Enemy Guide</title>
+	<head>
+		<link rel="icon" type="image/jpg" href="Resources/deltarune soul.jpg">
+		<link rel="stylesheet" type="text/css" media="all" href="Styles/deltaruneTitleScreenStyle.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--ID given to audio for the "toggleMusic()" Javascript function.
+		This is because users deserve a choice, but also because some browsers
+		block the music/audio all together if you autoplay it while unmuted.-->
+		<audio id="song" autoplay loop muted>
+			<!--Multiple file types ("sources") are being utilized in case a browser
+			does not support a specific file type. Browsers read from the list of options
+			in the order they are given/written. It will keep searching the list until
+			it finds a file type it supports. The first supported file type by the browser
+			that said browser finds, will be the same file (type) that will be getting
+			utilized. Do NOT only utilize one file type. Utilize tools like VLC and
+			ffmpeg & ffprobe to convert video and audio file formats between each other.-->
+			<source src="Music/Menu Theme.mp3" type="audio/mpeg">
+			<source src="Music/Menu Theme.ogg" type="audio/ogg">
+			<source src="Music/Menu Theme.wav" type="audio/wav">
+			Your browser does not support the "audio" feature/tag.
+		</audio>
+		<script type="module" src="Javascript/musicControls.js"></script>
+		<script type="module" src="Javascript/variables.js"></script>
+		<script type="module" src="Javascript/titleScreenSelect.js"></script>
+	</head>
+	<body>
+		<table align="center">
+			<tr>
+				<td align="center"><img src="Resources/Deltarune Title Screen Logo.png" width="1000" height="250"></td>
+			</tr>
+			<br>
+			<tr>
+				<td align="center"><img src="Resources/Deltarune Save File UI.png" width="550" height="250" id="informationSaveFile"> <a href="Pages/Information/information.html"><p id="informationText">&mdash; Information</p></a></td>
+			</tr>
+			<tr>
+				<td align="center"><img src="Resources/Deltarune Save File UI.png" width="550" height="250" id="battleGuideSaveFile"> <a href="Pages/chapterSelect.html"><p id="battleGuideText">&mdash; Battle Guide</p></a></td>
+			</tr>
+			<tr>
+				<td><img src="Resources/Deltarune Soul UI.png" width="50" height="50" id="soul"></td>
+			</tr>
+			<tr>
+				<td><a href="javascript:void(0);" onclick="toggleMusic()"><p id="musicToggle" align="center">Music</p></a></td>
+			</tr>
+		</table>
+	</body>
+</html>

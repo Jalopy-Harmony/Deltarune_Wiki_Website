@@ -1,0 +1,108 @@
+body {
+	background-image: url("../Resources/Deltarune Title Screen.gif");
+	background-size: 100% 100%;
+	background-position: center;
+}
+@font-face {
+	font-family: "8bitoperator JVE";
+	src: url("../Fonts/8bitoperator_jve.ttf") format("ttf"),
+	url("../Fonts/8bitoperator_jve.woff2") format("woff2"),
+	url("../Fonts/8bitoperator_jve.woff") format("woff"),
+	url("../Fonts/8bitoperator_jve.otf") format("otf"),
+	url("../Fonts/8bitoperator_jve.eot") format("eot"),
+	url("../Fonts/8bitoperator_jve.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+p {
+	font-family: "8bitoperator JVE";
+	color: #FFFFFF;
+	font-size: 2.5vw;
+}
+#informationText {
+	position: fixed; top: 38vh; right: 42vw;
+}
+#informationSaveFile {
+	position: fixed; top: 32.5vh; right: 35.5vw;
+}
+#battleGuideText {
+	position: fixed; top: 65.5vh; right: 41.5vw;
+}
+#battleGuideSaveFile {
+	position: fixed; top: 60vh; right: 35.5vw;
+}
+#soul {
+	position: fixed; top: 43vh; right: 57vw;
+}
+a {
+	text-decoration: none;
+}
+/*Page's/Elements' changed widths, heights, sizes, and positions for phones.*/
+@media only screen and (max-width:500px) {
+	#informationSaveFile {
+		width: 70%;
+		height: 20%;
+		position: fixed; right: 15vw;
+	}
+	#informationText {
+		font-size: 5vw;
+		position: fixed; right: 34vw;
+	}
+	#battleGuideSaveFile {
+		width: 70%;
+		height: 20%;
+		position: fixed; right: 15vw;
+	}
+	#battleGuideText {
+		font-size: 5vw;
+		position: fixed; right: 34vw;
+	}
+	#soul {
+		width: 5%;
+		height:3.5%;
+		position: fixed; top: 40.5vh; right: 64vw;
+	}
+	a {
+		text-decoration: none;
+	}
+}
+/*Page's/Elements' changed widths, heights, sizes, and positions for screens with a width
+of 1280 pixels. For example, 1280x720 or 1280x1024. Generally just 1280xH; where "H" stands
+for / references "height." Meaning the height can be anything; of any value.
+The width of the screen/monitor just has to be 1280 pixels.
+This also takes effect when the browser window is resized to such a state, and lower.
+Generally because the way a website presents itself is based on the viewport of the browser.
+The viewport is the area in which the websites are displayed; pretty much the browser itself.
+Resizing the window changes the size of the viewport. A differently sized screen will also
+have a differently sized viewport.*/
+@media only screen and (max-width:1280px) {
+	#informationSaveFile {
+		width: 40%;
+		height: 30%;
+		position: fixed; top: 35vh; right: 29.5vw;
+	}
+	#informationText {
+		font-size: 3.5vw;
+		position: fixed; top: 42.5vh; right: 39vw;
+	}
+	#battleGuideSaveFile {
+		width: 40%;
+		height: 30%;
+		position: fixed; top: 60vh; right: 29.5vw;
+	}
+	#battleGuideText {
+		font-size: 3.5vw;
+		position: fixed; top: 67.5vh; right: 39vw;
+	}
+	#soul {
+		width: 4%;
+		height: 3.85%;
+		position: fixed; top: 48.5vh; right: 59vw;
+	}
+	p {
+		font-size: 4.5vw;
+	}
+	a {
+		text-decoration: none;
+	}
+}

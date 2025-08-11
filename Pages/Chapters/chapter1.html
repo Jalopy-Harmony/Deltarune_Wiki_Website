@@ -1,0 +1,66 @@
+<html>
+	<title>Chapter 1</title>
+	<head>
+		<link rel="icon" type="image/jpg" href="../../Resources/deltarune soul.jpg">
+		<link rel="stylesheet" type="text/css" media="all" href="../../Styles/deltaruneStyle.css">
+		<audio id="song" autoplay loop>
+			<source src="../../Music/Field of Hopes and Dreams.mp3" type="audio/mpeg">
+			<source src="../../Music/Field of Hopes and Dreams.ogg" type="audio/ogg">
+			<source src="../../Music/Field of Hopes and Dreams.wav" type="audio/wav">
+			Your browser does not support the "audio" feature/tag.
+		</audio>
+		<script src="../../Javascript/musicControls.js"></script>
+		<style>
+			#leftSection {
+				position: fixed; left: 15vw;
+			}
+			#rightSection {
+				position: fixed; right: 15vw;
+			}
+			#rudinn {
+				position: relative; top: 15vh; right: 5vw;
+			}
+			#lancer {
+				width: 27vw;
+				height: none;
+				position: relative; top: 15vh; left: 2.5vw;
+			}
+			#soul {
+				width: 50px;
+				height: 50px;
+				position: fixed; top: 0vh; left: 45vw;
+			}
+		</style>
+		<script src="../../Javascript/chapter1.js"></script>
+	</head>
+	<body>
+		<a href="../chapterSelect.html"><p align="center" class="yellowText">Go Back</p></a>
+		<div align="center" width="1200">
+			<table align="left" width="600" id="leftSection">
+				<tr align="center">
+					<td align="center">
+						<a href="../Enemies/Chapter 1/rudinn.html"><p align="center" class="yellowText">Rudinn</p></a>
+					</td>
+				</tr>
+				<tr align="center">
+					<td align="center">
+						<img id="rudinn" src="../../Resources/Enemies/Chapter 1/Rudinn.webp" type="image/webp">
+					</td>
+				</tr>
+			</table>
+			<table align="right" width="600" id="rightSection">
+				<tr align="center">
+					<td align="center">
+						<a href="../Enemies/Chapter 1/lancer.html"><p align="center" class="yellowText">Lancer</p></a>
+					</td>
+				</tr>
+				<tr align="center">
+					<td align="center">
+						<img id="lancer" src="../../Resources/Enemies/Chapter 1/Lancer.webp" type="image/webp">
+					</td>
+				</tr>
+			</table>
+		</div>
+		<img id="soul" src="../../Resources/deltarune soul.jpg" type="image/jpg">
+	</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE HTML5>
+<html>
+    <title>Deltarune&colon; Information</title>
+    <head>
+        <link rel="icon" type="image/jpg" href="../../Resources/deltarune soul.jpg">
+        <link rel="stylesheet" type="text/css" media="all" href="../../Styles/deltaruneStyle.css">
+        <audio id="song" autoplay loop>
+            <source src="../../Music/Hip Shop.mp3" type="audio/mpeg">
+            <source src="../../Music/Hip Shop.ogg" type="audio/ogg">
+            <source src="../../Music/Hip Shop.wav" type="audio/wav">
+            Your browser does not support the "audio" feature/tag.
+        </audio>
+        <style>
+            #leftSection {
+                position: fixed; left: 15vw;
+            }
+            #rightSection {
+                position: fixed; right: 15vw;
+            }
+            #deltaruneInformation {
+                width: 70%;
+                height: 50%;
+                /*position: fixed; top: 30vh; left: 10vw;*/
+            }
+            #undertaleInformation {
+                width: 70%;
+                height: 50%;
+                /*position: fixed; top: 40vh; left: 10vw;*/
+            }
+            #notice {
+                font-size: 0.8vw;
+                color: #0FF0FF;
+            }
+            #handsomeLancer {
+                width: 20%;
+                height: 20%;
+            }
+            #sillyLancer {
+                width: 20%;
+                height: 20%;
+            }
+            #soul {
+                width: 50px;
+                height: 50px;
+                position: fixed; top: 0vh; left: 45vw;
+            }
+            #goBack {
+                color: #FFFF00;
+            }
+        </style>
+        <script src="../../Javascript/musicControls.js"></script>
+        <script src="../../Javascript/information.js"></script>
+    </head>
+    <body>
+        <a href="../../titleScreen.html"><p id="goBack" align="center" class="yellowText">Go Back</p></a>
+        <br>
+        <div align="center" width="1200">
+            <table align="left" width="600" id="leftSection">
+                <tr>
+                    <td><p align="center">Deltarune is a video game created by Toby Fox. It&apos;s name is a rearrangement of the name Undertale&semi; a game also previously made
+                        by Toby Fox. Toby Fox created both Undertale and Deltarune within GameMaker Studio 2. Undertale began as a Kickstarter project from Toby Fox and eventually further
+                        developed into huge success. This later led to the development of Deltarune. Deltarune is still being worked on today by Toby Fox. Chapters 1 and 2 are free to play in
+                        their entirety in the demo of the game. Chapters 3 and onward will require &dollar;25 to play (&dollar;25 buys you all the other chapters). Chapters 5, 6, &amp; 7, are all
+                        still in development.
+                    </p></td>
+                </tr>
+                <tr align="center">
+                    <td align="center">
+                        <p id="notice" align="center">Press/Click the game titles to go to their respective websites.</p>
+                        <a href="https://undertale.com/"><img id="undertaleInformation" src="../../Resources/Undertale Information Logo.avif" type="image/avif" align="center"></a>
+                        <a href="https://deltarune.com/"><img id="deltaruneInformation" src="../../Resources/Deltarune Information Logo.jpg" type="image/jpg" align="center"></a>
+                    </td>
+                </tr>
+            </table>
+            <table align="right" width="600" id="rightSection">
+                <tr>
+                    <td><p align="center">This website serves as a &quot;Battle Guide&quot; for the game Deltarune. It is made to give you advice on enemy attack patterns as well as
+                        information on enemy interactions. Everything is structured within chapters. Those chapters then being structured to contain enemies. This website will
+                        go over the regular enemies and bosses. This website may be in best interests for those who are aware of Deltarune already and want to improve, as well as those
+                        who want to play the game but also don&apos;t want to have as much trouble as they could have originally.
+                    </p></td>
+                </tr>
+                <tr align="center">
+                    <td align="center">
+                        <p id="notice" align="center">This is what a knowledeable person looks like&colon;</p>
+                        <img id="handsomeLancer" src="../../Resources/Handsome Lancer.jpg" type="image/jpg">
+                        <p id="notice" align="center">This is what a person who knows nothing looks like&colon;</p>
+                        <img id="sillyLancer" src="../../Resources/Silly Lancer.webp" type="image/webp">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <img id="soul" src="../../Resources/deltarune soul.jpg" type="image/jpg">
+    </body>
+</html>

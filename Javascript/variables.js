@@ -1,0 +1,1 @@
+export var music = document.getElementById("song");
