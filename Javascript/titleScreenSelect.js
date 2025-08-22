@@ -67,10 +67,10 @@ window.document.addEventListener("DOMContentLoaded", () => {
             music.muted = !music.muted;
         }
         else if (soul.key === "Enter" && soul_Position === 1) {
-            window.location.assign("./Pages/Information/information.html");
+            window.location.assign("Deltarune_Wiki_Website/Pages/Information/information.html");
         }
         else if (soul.key === "Enter" && soul_Position === 2) {
-            window.location.assign("./Pages/chapterSelect.html");
+            window.location.assign("Deltarune_Wiki_Website/Pages/chapterSelect.html");
         }
         if (music.muted) {
             music_Text.style.color = "#FF0F0F";
@@ -81,3 +81,4 @@ window.document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
+
