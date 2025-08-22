@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", () => {
             window.location.assign("../Pages/Chapters/chapter7.html");
         }
         else if (soul.key === "Enter" && soul_Position === 7) {
-            window.location.assign("../titleScreen.html");
+            window.location.assign("../index.html");
         }
     });
 });
