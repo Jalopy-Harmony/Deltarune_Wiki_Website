@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 break;
         }
         if (soul.key === "Enter" && soul_Position === 0) {
-            window.location.assign("../../titleScreen.html");
+            window.location.assign("../../index.html");
         }
         if (soul.key === "Enter" && soul_Position === 1) {
             window.location.assign("https://undertale.com/");
